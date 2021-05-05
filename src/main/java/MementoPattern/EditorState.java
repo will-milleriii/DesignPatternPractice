@@ -2,5 +2,13 @@ package MementoPattern;
 
 public class EditorState {
 
-    private String conten;
+    private final String content;
+
+    public EditorState(String content) {
+        this.content = content;
+    }
+
+    public String getContent() {
+        return content;
+    }
 }
